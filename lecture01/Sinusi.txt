@@ -1,0 +1,6 @@
+import math
+a = int(input("Одна сторона =:"))
+b = int(input("Другая сторона =:"))
+f = int(input("Угол между ними =:"))
+c = math.sqrt(a  2 + b  2 - 2 * a * b * math.cos(math.radians(f)))
+print("третья сторона:",c,)
