@@ -1,0 +1,121 @@
+chislo = int(input("Введите число:"))
+if (chislo // 100) >= 1:
+    if (chislo // 100) == 1:
+        print("Сто")
+        chislo = (chislo - 100)
+    if (chislo // 100) == 2:
+        print("Двести")
+        chislo = (chislo - 200)
+    if (chislo // 100) == 3:
+        print("Триста")
+        chislo = (chislo - 300)
+    if (chislo // 100) == 4:
+        print("Четыреста")
+        chislo = (chislo - 400)
+    if (chislo // 100) == 5:
+        print("Пятьсот")
+        chislo = (chislo - 500)
+    if (chislo // 100) == 6:
+        print("Шестьсот")
+        chislo = (chislo - 600)
+    if (chislo // 100) ==7:
+        print("Семьсот")
+        chislo = (chislo - 700)
+    if (chislo // 100) == 8:
+        print("Восемьсот")
+        chislo = (chislo - 800)
+    if (chislo // 100) == 9:
+        print("Девятьсот")
+        chislo = (chislo - 900)
+    if (chislo // 10) >= 1:
+        if (chislo // 10) == 1:
+            if chislo == 19: print("Девятнадцать")
+            if chislo == 18: print("Восемнадцать")
+            if chislo == 17: print("Семнадцать")
+            if chislo == 16: print("Шестнадцать")
+            if chislo == 15: print("Пятнадцать")
+            if chislo == 14: print("Четырнадцать")
+            if chislo == 13: print("Тринадцать")
+            if chislo == 12: print("Двенадцать")
+            if chislo == 11: print("Одиннадцать")
+            if chislo == 10: print("Десять")
+        if (chislo // 10) == 2:
+            print("Двадцать")
+            chislo = (chislo - 20)
+        if (chislo // 10) == 3:
+            print("Тридцать")
+            chislo = (chislo - 30)
+        if (chislo // 10) == 4:
+            print("Сорок")
+            chislo = (chislo - 40)
+        if (chislo // 10) == 5:
+            print("Пятьдесят")
+            chislo = (chislo - 50)
+        if (chislo // 10) == 6:
+            print("Шестьдесят ")
+            chislo = (chislo - 60)
+        if (chislo // 10) == 7:
+            print("Семьдесят")
+            chislo = (chislo - 70)
+        if (chislo // 10) == 8:
+            print("Восемьдесят")
+            chislo = (chislo - 80)
+        if (chislo // 10) == 9:
+            print("Девяносто")
+            chislo = (chislo - 90)
+        if (chislo // 10) == 0:
+            if chislo == 9: print("Девять")
+            if chislo == 8: print("Восемь")
+            if chislo == 7: print("Семь")
+            if chislo == 6: print("Шесть")
+            if chislo == 5: print("Пять")
+            if chislo == 4: print("Четыре")
+            if chislo == 3: print("Три")
+            if chislo == 2: print("Два")
+            if chislo == 1: print("Один")
+else:
+        if (chislo // 10) == 1:
+            if chislo == 19: print("Девятнадцать")
+            if chislo == 18: print("Восемнадцать")
+            if chislo == 17: print("Семнадцать")
+            if chislo == 16: print("Шестнадцать")
+            if chislo == 15: print("Пятнадцать")
+            if chislo == 14: print("Четырнадцать")
+            if chislo == 13: print("Тринадцать")
+            if chislo == 12: print("Двенадцать")
+            if chislo == 11: print("Одиннадцать")
+            if chislo == 10: print("Десять")
+        if (chislo // 10) == 2:
+            print("Двадцать")
+            chislo = (chislo - 20)
+        if (chislo // 10) == 3:
+            print("Тридцать")
+            chislo = (chislo - 30)
+        if (chislo // 10) == 4:
+            print("Сорок")
+            chislo = (chislo - 40)
+        if (chislo // 10) == 5:
+            print("Пятьдесят")
+            chislo = (chislo - 50)
+        if (chislo // 10) == 6:
+            print("Шестьдесят ")
+            chislo = (chislo - 60)
+        if (chislo // 10) == 7:
+            print("Семьдесят")
+            chislo = (chislo - 70)
+        if (chislo // 10) == 8:
+            print("Восемьдесят")
+            chislo = (chislo - 80)
+        if (chislo // 10) == 9:
+            print("Девяносто")
+            chislo = (chislo - 90)
+        if (chislo // 10) == 0:
+            if chislo == 9: print("Девять")
+            if chislo == 8: print("Восемь")
+            if chislo == 7: print("Семь")
+            if chislo == 6: print("Шесть")
+            if chislo == 5: print("Пять")
+            if chislo == 4: print("Четыре")
+            if chislo == 3: print("Три")
+            if chislo == 2: print("Два")
+            if chislo == 1: print("Один")
